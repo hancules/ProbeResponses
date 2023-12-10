@@ -1,0 +1,7 @@
+ - The W belongs to parts of the V.
+ - The W belongs to components of the V.
+ - The W belongs to constituents of the V.
+ - The W is contained in the V.
+ - The W is a constituent of the V.
+ - The W is a component of the V.
+ - The W is a part of the V.
