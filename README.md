@@ -1,6 +1,6 @@
 # Introduction
 In this repository, we present a corpus of responses to semantic relation probes collected from human annotators.
-Responses are filed in the `human_outputs-sorted.json`.
+Responses are filed in the `responses\human_responses.json`.
 Six kinds of semantic relations are targeted:
 - `ant`: antonymy
 - `syn`: synonymy
