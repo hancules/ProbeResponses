@@ -8,7 +8,8 @@ Six kinds of semantic relations are targeted:
 - `rhyp`: hyponymy
 - `holo`: holonymy
 - `mero`: meronymy
-`human_outputs-sorted.json`. has a structure as follows.
+
+`human-responses.json`. has a structure as follows.
 ```
 <target word>:
   <semantic relation>:
@@ -22,6 +23,7 @@ Six kinds of semantic relations are targeted:
 
 ```
 For, example `human_outputs_sorted["mother"]["hyp"]["the {0} is a kind of {1}"]` includes responses from human annotators to the probe *the mother is a kind of ___*.
+Note that a probe is defined as a prompt that its {0} is filled by a target word. All prompts for each relation can be found in the `prompts` folder.
 
 # Statistics
 |  Relation   | #Target words  | #Prompts |
