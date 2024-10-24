@@ -1,6 +1,0 @@
-  - The W has the V.
-  - The W consists of the V.
-  - Parts of the W include the V.
-  - Components of the W include the V.
-  - Constituents of the W include the V.
-  - The W contains the V.

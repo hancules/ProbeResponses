@@ -1,9 +1,0 @@
-- The W is the opposite of V.
-- If something is the W, then it can not also be the V.
-- It is impossible to be both the W and the V.
-- It is not likely to be both the W and the V.
-- It is the W so it is not the V.
-- The word W has a meaning that negates the meaning of the word V.
-- The word W has an opposite meaning of the word V.
-- The word W has an opposite sense of the word V.
-- The word W has a sense that negates the sense of the word V.
