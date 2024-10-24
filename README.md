@@ -28,7 +28,6 @@ For, example `human_outputs_sorted["mother"]["hyp"]["[DET] [W] is a kind of [V]"
 # Statistics
 |  Relation   | #Target words  | #Prompts |
 |  :----  | :----:  | :----: |
-
 | Hypernymy | 692 | 7 |
 | Hyponymy  | 310 | 4 |
 | Holonymy  | 186 | 7 |
