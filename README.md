@@ -16,29 +16,31 @@ Six kinds of semantic relations are targeted:
     <prompt>:
       [
         The response from annotator 1,
-        The response from annotator 1,
-        The response from annotator 1,
-        The response from annotator 1,
+        The response from annotator 2,
+        The response from annotator 3,
+        The response from annotator 4,
       ]
 
 ```
-For, example `human_outputs_sorted["mother"]["hyp"]["the {0} is a kind of {1}"]` includes responses from human annotators to the probe *the mother is a kind of ___*.
-Note that a probe is defined as a prompt that its {0} is filled by a target word. All prompts for each relation can be found in the `prompts` folder.
+For, example `human_outputs_sorted["mother"]["hyp"]["[DET] [W] is a kind of [V]"]` includes responses from human annotators to the probe *a mother is a kind of a ___*.
+
 
 # Statistics
 |  Relation   | #Target words  | #Prompts |
 |  :----  | :----:  | :----: |
-| Antonymy  | 105 | 9 |
-| Synonymy  | 218 | 7 |
-| Hypernymy | 718 | 7 |
-| Hyponymy  | 319 | 7 |
-| Holonymy  | 195 | 7 |
-| Meronymy  | 146 | 6 |
+
+| Hypernymy | 692 | 7 |
+| Hyponymy  | 310 | 4 |
+| Holonymy  | 186 | 7 |
+| Meronymy  | 144 | 6 |
+| Antonymy  |  91 | 9 |
+| Synonymy  | 211 | 7 |
+
 
 # Data Collection
 We collect responses to probes from humans on the Amazon Mechanical Turk~(MTurk) crowdsourcing platform. 
-We split 11,971 probes into 276 questionnaires and ensured no duplicate combinations of target word and semantic relation in one questionnaire. 
-For example, "*my favorite relative is the V*" and "*the word relative has a vaguer meaning than the word V*" will not appear in the same questionnaire.
+We split 10,546 probes into 276 questionnaires and ensured no duplicate combinations of target word and semantic relation in one questionnaire. 
+For example, "*a mother is a kind of a ___*" and "*the word mother has a more specific meaning than the word ___*" will not appear in the same questionnaire.
 We collected four responses for each questionnaire, and hence, there were four answers for each probe.
 Participants are restricted to those
 - whose answers are approved more than 500 times and the approval rate is beyond 95\%;
